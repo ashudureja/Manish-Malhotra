@@ -39,6 +39,7 @@ const Video = ({ main }) => {
         <motion.video
           ref={videoRef}
           src="./bgvideo.mp4"
+          playsInline
           autoPlay
           muted
           loop

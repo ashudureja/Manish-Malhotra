@@ -69,6 +69,7 @@ const Images = () => {
           <video
             className="w-full h-full object-cover object-[10%_20%]"
             src="./disha.mp4"
+            playsInline
             autoPlay
             loop
             muted
@@ -82,6 +83,7 @@ const Images = () => {
             <video
               className="w-full h-full object-cover object-[20%_10%]"
               src="./tripti.mp4"
+              playsInline
               autoPlay
               loop
               muted

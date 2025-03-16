@@ -49,6 +49,7 @@ const Playreel = () => {
           <motion.div className="absolute inset-0" style={{ clipPath }}>
             <video
               ref={videoRef}
+              playsInline
               autoPlay
               muted
               loop

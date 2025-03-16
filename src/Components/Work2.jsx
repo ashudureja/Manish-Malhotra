@@ -250,7 +250,7 @@ const Work2 = () => {
         </div>
 
         {view && <CustomCursor pos={pos} />}
-        <div className="absolute top-90 right-30 space-y-3 text-black">
+        <div className="absolute top-90 right-30 space-y-3 text-black hidden sm:block">
           <div className="flex items-center gap-2">
             <Plus className="text-sm" />
             <h1 className="text-sm font-semibold uppercase tracking-wide">
