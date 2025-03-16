@@ -1,0 +1,11 @@
+{
+  version: 1,
+  mediaFileName: 'Manish Malhotra   Tripti Dimri   Manish Malhotra Diwali Party 2024 #manishmalhotraworld #diwali.mp4',
+  cutSegments: [
+    {
+      start: 7.652909999999999,
+      end: 10.491892741935484,
+      name: '',
+    },
+  ],
+}
