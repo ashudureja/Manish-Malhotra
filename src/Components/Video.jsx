@@ -15,7 +15,7 @@ const Video = ({ main }) => {
     offset: ["start start", "end start"],
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [0, -200]);
+  const y = useTransform(scrollYProgress, [0, 1], [0, -150]);
 
   useEffect(() => {
     if ({ main } && videoRef.current) {
@@ -75,7 +75,7 @@ const Video = ({ main }) => {
               </p>
             </motion.div>
             <motion.div
-              className="Heading mt-10 sm:mt-15"
+              className="Heading mt-25 sm:mt-15"
               initial={{ opacity: 0, rotate: 20, originX: 0 }}
               animate={{ opacity: 1, rotate: 0 }}
               transition={{ duration: 1.2, ease: "easeOut", delay: 1 }}
@@ -108,7 +108,7 @@ const Video = ({ main }) => {
                 Legacy
               </motion.h1>
             </motion.div>
-            <div className="flex items-center justify-center text-center">
+            <div className="flex items-center justify-center text-center mt-15 sm:mt-4">
               <Plus />
               <h1>Studio</h1>
             </div>

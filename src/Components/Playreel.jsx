@@ -59,7 +59,7 @@ const Playreel = () => {
           </motion.div>
 
           <motion.h1
-            className="absolute text-[#E4E0DB] top-90 lg:top-84 lg:left-10 left-5 text-3xl lg:text-8xl font-serfi italic"
+            className="absolute text-[#E4E0DB] top-87 lg:top-84 lg:left-10 left-5 text-3xl lg:text-8xl font-serfi italic"
             style={{ x: x1 }}
           >
             {" "}

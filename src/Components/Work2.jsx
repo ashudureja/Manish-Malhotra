@@ -124,7 +124,7 @@ const Work2 = () => {
     <ReactLenis root>
       <div
         ref={container}
-        className="px-4 md:px-20 lg:px-28 relative pt-20 md:pt-32 lg:pt-44 w-full h-[260vh] lg:h-[250vh] overflow-hidden"
+        className="px-4 md:px-20 lg:px-28 relative pt-20 md:pt-32 lg:pt-44 w-full h-[280vh] lg:h-[250vh] overflow-hidden"
         onMouseMove={mousePos}
       >
         <div className="mb-18 md:mb-20 text-center w-full text-[2.4rem] md:text-[4.5rem] lg:text-[6rem] font-serif leading-[1] md:leading-[0.9]">
